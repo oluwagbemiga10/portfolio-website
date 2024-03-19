@@ -1,0 +1,86 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 55%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #ababab;
+    transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color: #ff004f;
+    transform: translateY(-5px)
+}
+.btn-download{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    background: #ff004f;
+    cursor: pointer;
+}
+.contact-right{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn-2{
+    display: inline-block;
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    background: #ff004f;
+    cursor: pointer;
+    font-size: 16px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin: 20px 0 5px 0;
+}
+@media only screen and (max-width) {
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
