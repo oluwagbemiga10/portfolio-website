@@ -27,12 +27,12 @@ const Contact = () => {
             <div className="row">
                 <div className="contact-left">
                     <h1 className='subtitle'>Contact me</h1>
-                    <p>contact@gmail.com</p>
-                    <p>03045905443</p>
+                    <p><a href='mailto:oyelamigbenga11@gmail.com'>oyelamigbenga11@gmail.com</a></p>
+                    <p><a href='tel:+2349021470757'>+2349021470757</a></p>
                     <div className="social-icon">
-                      <a href=''>Facebook</a> 
-                      <a href=''>Twitter</a> 
-                      <a href=''>Linkedin</a>  
+                      <a target='_blank' href='https://wa.me/+2349021470757'>Whatsapp</a> 
+                      <a target='_blank' href='https://x.com/oyelamibiodun?t=8Yx8LwDbHVLj1tACi3fbww&s=08'>Twitter</a> 
+                      <a target='_blank' href='https://www.linkedin.com/in/gbenga-oyelami-3a4495227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Linkedin</a>  
                     </div>
                     <a href='#' download className='btn-download'>Download CV</a>
                 </div>
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="copyright">
-            <p>Copyright @ Gbenga. Made with by Easy Tutorials</p>
+            <p>@ Gbenga Oyelami. I'm available to work!!!</p>
         </div>
     </section>
   )

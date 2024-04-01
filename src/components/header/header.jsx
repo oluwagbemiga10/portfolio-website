@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './header.css'
-import logo from '../../assets/images/logo.png'
+import Gbengao1 from '../../assets/images/Gbengao1.png'
 import menu from '../../assets/images/menu.png'
 import close from '../../assets/images/close.png'
 
@@ -16,7 +16,7 @@ const [toggle, setToggle] = useState(false)
     <section id='header'>
       <div className='container'>
         <nav>
-          <img src={logo} className='logo' alt='logo' />
+          <img src={Gbengao1} className='logo' alt='logo' />
           <ul>
             <li><a href='#header'>Home</a></li>
             <li><a href='#about'>About</a></li>
