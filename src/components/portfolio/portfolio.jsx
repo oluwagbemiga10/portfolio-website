@@ -28,7 +28,7 @@ const Portfolio = () => (
                 <div className="work">
                     <img src={thirdproject} alt='work' /> 
                     <div className="layer">
-                        <h3>A Payment Platform Website</h3>
+                        <h3>Payment Platform Website</h3>
                         <p>Fully responsive website with modern UI/UX in ReactJS with Tailwind.</p>
                         <a href='https://oluwagbemiga10.github.io/portfolio-project3/' target='_blank'>View more</a>
                     </div>
