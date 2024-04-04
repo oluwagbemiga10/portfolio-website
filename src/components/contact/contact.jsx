@@ -1,6 +1,7 @@
 import React , {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import './contact.css'
+import GbengaOyelamiResume from '../../assets/images/GbengaOyelamiResume.pdf'
 
 const Contact = () => {
     const form = useRef();
@@ -34,7 +35,7 @@ const Contact = () => {
                       <a target='_blank' href='https://x.com/oyelamibiodun?t=8Yx8LwDbHVLj1tACi3fbww&s=08'>Twitter</a> 
                       <a target='_blank' href='https://www.linkedin.com/in/gbenga-oyelami-3a4495227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Linkedin</a>  
                     </div>
-                    <a href='#' download className='btn-download'>Download CV</a>
+                    <a href={GbengaOyelamiResume} download className='btn-download'>Download CV</a>
                 </div>
                 <div className='contact-right'>
                     <form ref={form} onSubmit={sendEmail}>

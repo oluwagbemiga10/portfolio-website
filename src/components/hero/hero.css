@@ -37,7 +37,7 @@
 .hero-text{
     font-size: 12px;
     font-weight: lighter;
-    line-height: 20px;
+    line-height: 24px;
     margin-top: 10px;
     letter-spacing: 0.5px;
 }
@@ -62,24 +62,41 @@
 @media screen and (max-width:600px) {
     .hero-img{  
         right: -50vw;
-        padding: 40px 10% 0 10%;
+        left: -2vw;
+        padding-top: 40px;
+        object-fit: cover;
+    }
+    .overlay{
+        position: absolute;
+        background-color: rgba(4, 9, 30, 0.5);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
     }
     .hello{
         font-size: 5.5vw;
         margin-bottom: 10px;
+        z-index: 1;
     }
     .hero-header{
         font-size: 10vw;
         margin-bottom: 10px;
+        z-index: 1;
     }
     .hero-text{
         font-size: 16px;
         line-height: 28px;
+        z-index: 1;
     }
     .hero-content{
         margin-top: 80px;
     }
     .hero-btn{
         font-size: 18px;
+        z-index: 1;
+    }
+    .subtitle{
+        font-size: 30px;
     }
 }

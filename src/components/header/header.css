@@ -86,6 +86,7 @@ nav ul li a:hover::after{
     .menu-list{
         position: fixed;
         background: green;
+        opacity: 0.8;
         top: 0;
         right: 0;
         width: 50px;
